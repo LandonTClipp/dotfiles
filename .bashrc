@@ -27,5 +27,5 @@ git_main_branch_name() {
 
 gitc() {
     main_name="$(git_main_branch_name)"
-    git branch --merged | grep -v "^[ *]*${main_name}$" | xargs git branch -d
+    git branch --merged | grep -v "^[ *]*${main_name}$" | awk '{ print $NF }' | xargs git branch -d
 }

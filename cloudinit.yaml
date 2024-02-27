@@ -1,2 +1,2 @@
-ssh_authorized_keys::
+ssh_authorized_keys:
   - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILn9xRZn//+wmgQ1wtWJDTr9SF9H/GP+IvHoCK+qExcK landon@lambdalabs-A02257
